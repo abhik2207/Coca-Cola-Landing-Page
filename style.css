@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #ffffff;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
+
+#nav {
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+#nav-prt2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
+#nav h1 {
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+#nav h1 i {
+    margin-right: 10px;
+}
+
+#nav>i {
+    font-size: 20px;
+}
+
+#nav h5 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#nav h5:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#nav img {
+    height: 60px;
+}
+
+#line {
+    width: 90px;
+    height: 2px;
+    background-color: red;
+}
+
+#content {
+    height: calc(100% - 140px);
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+#content>img {
+    height: 100%;
+    position: absolute;
+    left: 49%;
+    transform: translateX(-50%);
+    filter: drop-shadow(0px 0px 7px black);
+}
+
+#left {
+    width: 37%;
+    height: 100%;
+    padding: 160px 0px;
+    padding-left: 90px;
+    padding-right: 80px;
+}
+
+#left h1 {
+    font-size: 75px;
+    line-height: 90px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+#left h1 span {
+    color: red;
+    font-weight: 500;
+}
+
+#left p {
+    font-size: 18px;
+    width: 70%;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+#left .taste button {
+    background-color: red;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+#left .taste button:hover {
+    background-color: #fff;
+    color: red;
+    cursor: pointer;
+}
+
+#left .taste button:hover i {
+    color: red;
+}
+
+#left .taste button i {
+    margin-right: 10px;
+}
+
+.taste {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 30px;
+}
+
+.taste>i {
+    color: red;
+}
+
+.taste>i:hover {
+    cursor: pointer;
+}
+
+#center {
+    width: 26%;
+    height: 100%;
+    padding-top: 60px;
+}
+
+#center #center-bg {
+    background-color: blue;
+    height: 88%;
+    width: 100%;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url(background.jpg);
+    background-size: 400%;
+    background-position: 28%, 50%;
+    filter: blur(3px);
+}
+
+#right {
+    width: 37%;
+    height: 100%;
+    padding: 340px 140px;
+}
+
+#right-elems {
+    width: 350px;
+}
+
+#elem1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom: 1px solid white;
+    padding: 0px 10px;
+    opacity: 0.5;
+}
+
+#elem1 h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+#elem1 i {
+    font-size: 24px;
+}
+
+#elem2{
+    padding: 0px 10px;
+}
+
+#elem2 h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#elem2 p {
+    font-size: 12px;
+    width: 80%;
+    opacity: 0.7;
+}
